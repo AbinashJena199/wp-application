@@ -48,14 +48,15 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '|^_r*8S3Xl*y`,|qTeX~;5C?57ooHNOSLl-~_Ze{&]lx^57RL:(Z                                                                             _V1vFlV2kj&>');
-define('SECURE_AUTH_KEY',  '1!!BM{}Tk@IM&T!oeArny8,M^%2uJl,)E8Vg|P}8g-+6hl$DrBkw                                                                             peoQc9|qYsZX');
-define('LOGGED_IN_KEY',    '@kU?IuLPdu38A+glv<41E`bTd wZvtS&m=1=@lDC45WDl=>ewFwk                                                                             nycPAp+>%J6D');
-define('NONCE_KEY',        'nT/(q)(Z$1gU-ogq-*{-E*XBwnm+1!,Rf?H00qh@]|TJDuY2K-6h                                                                             :L74pM8[c6se');
-define('AUTH_SALT',        'N|92[w?@#/3TK[.]160wry+OJ/hN0KK*EP|cdRK?L*~#R/?KV`[Q                                                                             C SG:a+7/B&j');
-define('SECURE_AUTH_SALT', '`&[!ZPyyk8T=mQU]KR9M976X;R>2>w4onQXM3F9|LDWtf {DFIXd                                                                             u{[kQ[?a{+C|');
-define('LOGGED_IN_SALT',   'Qqq%$V-;gq+PkFST=nzbQ|??si!@$msxoe<065|+kOvXfo--)^9L                                                                             ,AIh-ZXUu:X-');
-define('NONCE_SALT',       'X4rL=>4l*NgpK<Sdg&?pBCRx.6v{E7zsFn5.,ohD[CR{.#8&u1Dp                                                                             w$;2/TL/tG2e');
+define('AUTH_KEY',         '|^_r*8S3Xl*y`,|qTeX~;5C?57ooHNOSLl-~_Ze{&]lx^57RL:(Z_V1vFlV2kj&>');
+define('SECURE_AUTH_KEY',  '1!!BM{}Tk@IM&T!oeArny8,M^%2uJl,)E8Vg|P}8g-+6hl$DrBkwpeoQc9|qYsZX');
+define('LOGGED_IN_KEY',    '@kU?IuLPdu38A+glv<41E`bTd wZvtS&m=1=@lDC45WDl=>ewFwknycPAp+>%J6D');
+define('NONCE_KEY',        'nT/(q)(Z$1gU-ogq-*{-E*XBwnm+1!,Rf?H00qh@]|TJDuY2K-6h:L74pM8[c6se');
+define('AUTH_SALT',        'N|92[w?@#/3TK[.]160wry+OJ/hN0KK*EP|cdRK?L*~#R/?KV`[QC SG:a+7/B&j');
+define('SECURE_AUTH_SALT', '`&[!ZPyyk8T=mQU]KR9M976X;R>2>w4onQXM3F9|LDWtf {DFIXdu{[kQ[?a{+C|');
+define('LOGGED_IN_SALT',   'Qqq%$V-;gq+PkFST=nzbQ|??si!@$msxoe<065|+kOvXfo--)^9L,AIh-ZXUu:X-');
+define('NONCE_SALT',       'X4rL=>4l*NgpK<Sdg&?pBCRx.6v{E7zsFn5.,ohD[CR{.#8&u1Dpw$;2/TL/tG2e');
+
 
 
 /**#@-*/
